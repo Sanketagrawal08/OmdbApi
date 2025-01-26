@@ -3,7 +3,7 @@ import axios from "axios";
 const key = '2c772de3'
 
 const api = axios.create({
-    baseURL: "http://www.omdbapi.com/"
+    baseURL: "https://www.omdbapi.com/"
 })
 
 export const  getDataByTitle = (query) => {
