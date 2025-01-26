@@ -36,7 +36,7 @@ const MovieShow = ({ movieData }) => {
         </div>
       </div> ) 
       :
-       (<p className='absolute top-[50vh] left-[70vw] text-white'>Movie Not Found 🥲 </p>) }
+       (<p className='absolute top-[50vh] left-[70vw] text-white'></p>) }
     
   
   </div>
