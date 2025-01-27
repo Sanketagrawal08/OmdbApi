@@ -22,7 +22,7 @@ const MovieDetails = () => {
     <div className="max-w-6xl mx-auto py-12 px-6">
           <div className="flex justify-end  mb-4"> 
             <NavLink to="/">
-            <i className="ri-close-line text-3xl hover:text-red-600"></i> 
+            <i className="ri-close-line text-3xl text-red-600 hover:text-red-800 border-2 bg-gray-100 rounded-full"></i> 
             </NavLink>
             </div>
       <div className="flex flex-col md:flex-row items-center bg-teal-950 p-6 rounded-lg shadow-lg">

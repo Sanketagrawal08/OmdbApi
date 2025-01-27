@@ -59,25 +59,32 @@
   background-size: cover;
 }
 
+.nav{
+  background-color: rgb(2,52,48);
+}
 
-
-@media (max-width:800px) {
-  .res1{
+@media (max-width:820px) {
+  .colDena{
     display: flex;
     flex-direction: column;
   }
-  .bgImage{
-    width: 100vw !important;
-    height: 50vh !important;
-    padding: 5vw;
-  }
-  .input{
-    width: 80vw !important;
-  }
-  .res2{
-    width: 100vw !important;
-    background-color: rgb(48, 48, 48);
-    min-height: 100vh !important;
+  .c1,.c2{
+    width: 100vw;
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+ background-color: rgb(11, 23, 28);
+}
+
+.se{
+  color: rgb(105, 104, 105);
+  font-weight: 500;
+}
